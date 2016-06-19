@@ -16,12 +16,12 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using MapsforgeSharp.Core.Graphics;
+using MapsforgeSharp.Core.Mapelements;
+using MapsforgeSharp.Core.Model;
+
 namespace MapsforgeSharp.Graphics
 {
-	using MapsforgeSharp.Core.Graphics;
-	using MapsforgeSharp.Core.Mapelements;
-	using MapsforgeSharp.Core.Model;
-
 	public class SkiaPointTextContainer : PointTextContainer
 	{
 		internal SkiaPointTextContainer(Point xy, Display display, int priority, string text, IPaint paintFront, IPaint paintBack, SymbolContainer symbolContainer, Position position, int maxTextWidth) : base(xy, display, priority, text, paintFront, paintBack, symbolContainer, position, maxTextWidth)

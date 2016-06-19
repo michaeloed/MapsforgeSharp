@@ -14,16 +14,16 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using System;
+using System.IO;
+using System.Reflection;
+using SkiaSharp;
+using MapsforgeSharp.Core.Mapelements;
+using MapsforgeSharp.Core.Model;
+using MapsforgeSharp.Core.Graphics;
+
 namespace MapsforgeSharp.Graphics
 {
-	using System;
-	using System.IO;
-	using System.Reflection;
-	using SkiaSharp;
-	using MapsforgeSharp.Core.Mapelements;
-	using MapsforgeSharp.Core.Model;
-	using MapsforgeSharp.Core.Graphics;
-
 	public class SkiaGraphicFactory : IGraphicFactory
     {
         private static readonly string PREFIX_ASSETS = "assets:";

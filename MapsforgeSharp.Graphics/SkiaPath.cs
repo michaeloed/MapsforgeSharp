@@ -13,12 +13,12 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using System;
+using SkiaSharp;
+using MapsforgeSharp.Core.Graphics;
+
 namespace MapsforgeSharp.Graphics
 {
-	using System;
-	using SkiaSharp;
-	using MapsforgeSharp.Core.Graphics;
-
 	public class SkiaPath : IPath
     {
         private SKPath nativePath;

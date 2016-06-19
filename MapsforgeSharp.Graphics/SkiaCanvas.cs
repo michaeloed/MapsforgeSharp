@@ -14,13 +14,13 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using System;
+using SkiaSharp;
+using MapsforgeSharp.Core.Graphics;
+using MapsforgeSharp.Core.Model;
+
 namespace MapsforgeSharp.Graphics
 {
-	using System;
-	using SkiaSharp;
-	using MapsforgeSharp.Core.Graphics;
-	using MapsforgeSharp.Core.Model;
-
 	public class SkiaCanvas : ICanvas
     {
         private readonly SKSurface nativeSurface;

@@ -13,13 +13,13 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using System;
+using System.IO;
+using SkiaSharp;
+using MapsforgeSharp.Core.Graphics;
+
 namespace MapsforgeSharp.Graphics
 {
-    using System;
-    using System.IO;
-    using SkiaSharp;
-    using MapsforgeSharp.Core.Graphics;
-
     public class SkiaBitmap : IBitmap
     {
         SKBitmap nativeBitmap;

@@ -13,11 +13,11 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using SkiaSharp;
+using MapsforgeSharp.Core.Graphics;
+
 namespace MapsforgeSharp.Graphics
 {
-	using SkiaSharp;
-	using MapsforgeSharp.Core.Graphics;
-	
 	public static class SkiaExtensions
     {
         /// <summary>
