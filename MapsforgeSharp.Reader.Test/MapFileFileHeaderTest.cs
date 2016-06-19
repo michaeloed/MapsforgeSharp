@@ -15,16 +15,14 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using MapsforgeSharp.Core.Model;
+using MapsforgeSharp.Reader.Header;
+using NUnit.Framework;
+using PCLStorage;
+using System;
+
 namespace MapsforgeSharp.Reader
 {
-    using NUnit.Framework;
-    using PCLStorage;
-    using System;
-
-    using BoundingBox = MapsforgeSharp.Core.Model.BoundingBox;
-    using LatLong = MapsforgeSharp.Core.Model.LatLong;
-    using MapFileInfo = MapsforgeSharp.Reader.Header.MapFileInfo;
-
     public class MapFileFileHeaderTest
 	{
 		private static readonly BoundingBox BOUNDING_BOX = new BoundingBox(0.1, 0.2, 0.3, 0.4);

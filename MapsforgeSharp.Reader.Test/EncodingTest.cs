@@ -15,16 +15,13 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using MapsforgeSharp.Core.Datastore;
+using MapsforgeSharp.Core.Model;
+using MapsforgeSharp.Core.Util;
+using NUnit.Framework;
+
 namespace MapsforgeSharp.Reader
 {
-    using NUnit.Framework;
-
-    using LatLong = MapsforgeSharp.Core.Model.LatLong;
-    using Tile = MapsforgeSharp.Core.Model.Tile;
-    using MercatorProjection = MapsforgeSharp.Core.Util.MercatorProjection;
-    using MapReadResult = MapsforgeSharp.Core.Datastore.MapReadResult;
-    using Way = MapsforgeSharp.Core.Datastore.Way;
-
     internal sealed class EncodingTest
 	{
 		private const sbyte ZOOM_LEVEL = 8;

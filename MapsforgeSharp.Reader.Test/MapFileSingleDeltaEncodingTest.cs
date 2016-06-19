@@ -14,11 +14,11 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using NUnit.Framework;
+using PCLStorage;
+
 namespace MapsforgeSharp.Reader
 {
-    using NUnit.Framework;
-    using PCLStorage;
-
     public class MapFileSingleDeltaEncodingTest
 	{
 		private static readonly MapFile MAP_FILE_SINGLE_DELTA = new MapFile(PortablePath.Combine(new string[] { "resources", "single_delta_encoding", "output.map" }), null);

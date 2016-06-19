@@ -15,20 +15,15 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using MapsforgeSharp.Core.Datastore;
+using MapsforgeSharp.Core.Model;
+using MapsforgeSharp.Core.Util;
+using MapsforgeSharp.Reader.Header;
+using NUnit.Framework;
+using PCLStorage;
+
 namespace MapsforgeSharp.Reader
 {
-    using NUnit.Framework;
-    using PCLStorage;
-
-    using LatLong = MapsforgeSharp.Core.Model.LatLong;
-    using Tag = MapsforgeSharp.Core.Model.Tag;
-    using Tile = MapsforgeSharp.Core.Model.Tile;
-    using MercatorProjection = MapsforgeSharp.Core.Util.MercatorProjection;
-    using MapReadResult = MapsforgeSharp.Core.Datastore.MapReadResult;
-    using PointOfInterest = MapsforgeSharp.Core.Datastore.PointOfInterest;
-    using Way = MapsforgeSharp.Core.Datastore.Way;
-    using MapFileInfo = MapsforgeSharp.Reader.Header.MapFileInfo;
-
     public class MapFileWithDataTest
 	{
 		private static readonly IFile MAP_FILE = FileSystem.Current.LocalStorage.GetFileAsync(PortablePath.Combine(new string[] { "resources", "with_data", "output.map" })).Result;
