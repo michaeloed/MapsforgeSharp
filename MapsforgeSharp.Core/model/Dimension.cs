@@ -15,11 +15,11 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using System.Runtime.Serialization;
+using System.Text;
+
 namespace MapsforgeSharp.Core.Model
 {
-    using System.Runtime.Serialization;
-    using System.Text;
-
     [DataContract]
 	public class Dimension
 	{

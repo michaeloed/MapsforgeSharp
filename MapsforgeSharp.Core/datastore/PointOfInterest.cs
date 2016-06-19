@@ -16,11 +16,13 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using System.Collections.Generic;
+using System.Linq;
+using MapsforgeSharp.Core.Model;
+
 namespace MapsforgeSharp.Core.Datastore
 {
-    using System.Collections.Generic;
-    using System.Linq;
-    using MapsforgeSharp.Core.Model;
+
 
     /// <summary>
     /// An immutable container for all data associated with a single point of interest node (POI).

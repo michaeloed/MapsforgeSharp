@@ -16,10 +16,10 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace MapsforgeSharp.Core.Datastore
-{
-    using System.Collections.Generic;
+using System.Collections.Generic;
 
+namespace MapsforgeSharp.Core.Datastore
+{ 
     /// <summary>
     /// An immutable container for the data returned from a MapDataStore.
     /// </summary>

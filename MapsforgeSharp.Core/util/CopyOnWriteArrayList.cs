@@ -13,11 +13,11 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using System.Collections;
+using System.Collections.Generic;
+
 namespace MapsforgeSharp.Core.Util
 {
-    using System.Collections;
-    using System.Collections.Generic;
-
     public class CopyOnWriteArrayList<T> : IEnumerable, ICollection<T>, IEnumerable<T>, IList<T>
     {
         private List<T> list;

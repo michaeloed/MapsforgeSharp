@@ -19,12 +19,12 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using System;
+using System.Collections.Generic;
+using MapsforgeSharp.Core.Model;
+
 namespace MapsforgeSharp.Core.Util
 {
-    using System;
-    using System.Collections.Generic;
-    using MapsforgeSharp.Core.Model;
-
 	/// <summary>
 	/// A utility class to convert, parse and validate geographical latitude/longitude coordinates.
 	/// </summary>

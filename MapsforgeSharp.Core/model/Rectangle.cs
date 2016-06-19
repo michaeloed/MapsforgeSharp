@@ -15,12 +15,12 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using System;
+using System.Runtime.Serialization;
+using System.Text;
+
 namespace MapsforgeSharp.Core.Model
 {
-    using System;
-    using System.Runtime.Serialization;
-    using System.Text;
-
     /// <summary>
     /// A Rectangle represents an immutable set of four double coordinates.
     /// </summary>

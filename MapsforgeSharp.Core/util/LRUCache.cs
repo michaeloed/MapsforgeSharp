@@ -15,10 +15,10 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using System.Collections.Generic;
+
 namespace MapsforgeSharp.Core.Util
 {
-    using System.Collections.Generic;
-
     /// <summary>
     /// An LRUCache with a fixed size and an access-order policy. Old mappings are automatically removed from the cache when
     /// new mappings are added. This implementation uses an <seealso cref="LinkedHashMap"/> internally.

@@ -15,10 +15,10 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using System;
+
 namespace MapsforgeSharp.Core.Graphics
 {
-    using System;
-
     /// <summary>
     /// At least on Android, loading graphic resources can fail because the input stream is corrupted. This can result in
     /// undocumented checked exceptions (should not, but it does). In the Android code base these exceptions are caught and

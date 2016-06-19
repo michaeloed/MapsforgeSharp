@@ -15,11 +15,11 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using System.Text;
+using System.Runtime.Serialization;
+
 namespace MapsforgeSharp.Core.Model
 {
-    using System.Text;
-    using System.Runtime.Serialization;
-
     /// <summary>
     /// A tag represents an immutable key-value pair.
     /// </summary>

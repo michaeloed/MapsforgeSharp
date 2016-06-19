@@ -15,13 +15,12 @@
  * You should have received a copy of the GNU Lesser General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
+using System;
+using System.Collections.Generic;
+using MapsforgeSharp.Core.Model;
 
 namespace MapsforgeSharp.Core.Datastore
 {
-    using System;
-    using System.Collections.Generic;
-    using MapsforgeSharp.Core.Model;
-
 	/// <summary>
 	/// A MapDatabase that reads and combines data from multiple map files.
 	/// The MultiMapDatabase supports the following modes for reading from multiple files:

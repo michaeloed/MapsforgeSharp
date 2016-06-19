@@ -15,10 +15,10 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using System.Collections.Generic;
+
 namespace MapsforgeSharp.Core.Datastore
 {
-    using System.Collections.Generic;
-
     public class PoiWayBundle
 	{
 		internal readonly IList<PointOfInterest> Pois;

@@ -15,12 +15,12 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using System;
+using System.Runtime.Serialization;
+using System.Text;
+
 namespace MapsforgeSharp.Core.Model
 {
-    using System;
-    using System.Runtime.Serialization;
-    using System.Text;
-
     /// <summary>
     /// A directed line segment between two Points.
     /// </summary>

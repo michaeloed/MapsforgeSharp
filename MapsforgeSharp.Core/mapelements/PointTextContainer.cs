@@ -16,12 +16,12 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using System.Text;
+using MapsforgeSharp.Core.Graphics;
+using MapsforgeSharp.Core.Model;
+
 namespace MapsforgeSharp.Core.Mapelements
 {
-	using System.Text;
-	using MapsforgeSharp.Core.Graphics;
-	using MapsforgeSharp.Core.Model;
-
 	public abstract class PointTextContainer : MapElementContainer
 	{
 		public readonly bool isVisible;

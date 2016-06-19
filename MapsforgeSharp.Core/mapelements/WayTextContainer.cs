@@ -16,13 +16,13 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using System;
+using System.Text;
+using MapsforgeSharp.Core.Graphics;
+using MapsforgeSharp.Core.Model;
+
 namespace MapsforgeSharp.Core.Mapelements
 {
-    using System;
-    using System.Text;
-    using MapsforgeSharp.Core.Graphics;
-	using MapsforgeSharp.Core.Model;
-
 	public class WayTextContainer : MapElementContainer
 	{
 		private readonly IPaint paintFront;

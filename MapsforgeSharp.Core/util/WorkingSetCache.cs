@@ -15,10 +15,10 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using System.Collections.Generic;
+
 namespace MapsforgeSharp.Core.Util
 {
-    using System.Collections.Generic;
-
     /// <summary>
     /// Cache that maintains a working set of elements in the cache, given to it by
     /// setWorkingSet(Set<K>) in addition to other elements which are kept on a LRU

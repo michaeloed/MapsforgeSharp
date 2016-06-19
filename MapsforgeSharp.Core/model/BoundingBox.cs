@@ -17,14 +17,14 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Runtime.Serialization;
+using MapsforgeSharp.Core.Util;
+
 namespace MapsforgeSharp.Core.Model
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Text;
-    using System.Runtime.Serialization;
-    using MapsforgeSharp.Core.Util;
-
     /// <summary>
     /// A BoundingBox represents an immutable set of two latitude and two longitude coordinates.
     /// </summary>

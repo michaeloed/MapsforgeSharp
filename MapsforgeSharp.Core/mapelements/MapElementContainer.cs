@@ -14,14 +14,13 @@
  * You should have received a copy of the GNU Lesser General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
+using System;
+using System.Text;
+using MapsforgeSharp.Core.Graphics;
+using MapsforgeSharp.Core.Model;
 
 namespace MapsforgeSharp.Core.Mapelements
 {
-    using System;
-    using System.Text;
-    using MapsforgeSharp.Core.Graphics;
-	using MapsforgeSharp.Core.Model;
-
 	/// <summary>
 	/// The MapElementContainer is the abstract base class for annotations that can be placed on the
 	/// map, e.g. labels and icons.
