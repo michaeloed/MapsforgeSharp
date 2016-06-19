@@ -17,12 +17,12 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using System;
+using MapsforgeSharp.Core.Model;
+using MapsforgeSharp.Core.Util;
+
 namespace MapsforgeSharp.Reader.Header
 {
-	using System;
-	using MapsforgeSharp.Core.Model;
-	using MapsforgeSharp.Core.Util;
-
 	internal sealed class OptionalFields
 	{
 		/// <summary>

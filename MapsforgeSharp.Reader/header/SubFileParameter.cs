@@ -15,10 +15,10 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using MapsforgeSharp.Core.Util;
+
 namespace MapsforgeSharp.Reader.Header
 {
-	using MapsforgeSharp.Core.Util;
-
 	/// <summary>
 	/// Holds all parameters of a sub-file.
 	/// </summary>

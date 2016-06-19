@@ -14,10 +14,10 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using MapsforgeSharp.Reader.Header;
+
 namespace MapsforgeSharp.Reader
 {
-	using MapsforgeSharp.Reader.Header;
-
 	/// <summary>
 	/// An immutable container class which is the key for the index cache.
 	/// </summary>

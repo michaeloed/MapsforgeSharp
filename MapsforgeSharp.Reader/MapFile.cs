@@ -16,18 +16,19 @@
  * You should have received a copy of the GNU Lesser General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
+
+using System;
+using System.Collections.Generic;
+using System.IO;
+using PCLStorage;
+using Acrotech.PortableLogAdapter;
+using MapsforgeSharp.Core.Model;
+using MapsforgeSharp.Core.Util;
+using MapsforgeSharp.Core.Datastore;
+using MapsforgeSharp.Reader.Header;
+
 namespace MapsforgeSharp.Reader
 {
-    using System;
-    using System.Collections.Generic;
-    using System.IO;
-    using PCLStorage;
-    using Acrotech.PortableLogAdapter;
-    using MapsforgeSharp.Core.Model;
-    using MapsforgeSharp.Core.Util;
-    using MapsforgeSharp.Core.Datastore;
-    using MapsforgeSharp.Reader.Header;
-
     /// <summary>
     /// A class for reading binary map files.
     /// <para>

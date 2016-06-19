@@ -16,10 +16,10 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using MapsforgeSharp.Core.Model;
+
 namespace MapsforgeSharp.Reader
 {
-	using MapsforgeSharp.Core.Model;
-
 	internal sealed class QueryCalculations
 	{
 		internal static int CalculateTileBitmask(Tile tile, int zoomLevelDifference)

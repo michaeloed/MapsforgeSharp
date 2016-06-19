@@ -16,12 +16,12 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using System;
+using MapsforgeSharp.Core.Model;
+using MapsforgeSharp.Reader.Header;
+
 namespace MapsforgeSharp.Reader
 {
-    using System;
-	using MapsforgeSharp.Core.Model;
-	using MapsforgeSharp.Reader.Header;
-
 	internal class QueryParameters
 	{
 		internal long fromBaseTileX;

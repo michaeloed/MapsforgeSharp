@@ -16,10 +16,10 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using MapsforgeSharp.Core.Model;
+
 namespace MapsforgeSharp.Reader.Header
 {
-	using MapsforgeSharp.Core.Model;
-
 	internal class MapFileInfoBuilder
 	{
 		internal BoundingBox boundingBox;

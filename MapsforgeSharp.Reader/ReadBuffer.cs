@@ -15,12 +15,12 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using Acrotech.PortableLogAdapter;
+using System;
+using System.IO;
+
 namespace MapsforgeSharp.Reader
 {
-    using Acrotech.PortableLogAdapter;
-    using System;
-    using System.IO;
-
     /// <summary>
     /// Reads from a <seealso cref="RandomAccessFile"/> into a buffer and decodes the data.
     /// </summary>
