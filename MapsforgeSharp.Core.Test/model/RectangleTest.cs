@@ -15,10 +15,10 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using NUnit.Framework;
+
 namespace MapsforgeSharp.Core.Model
 {
-    using NUnit.Framework;
-
     public class RectangleTest
 	{
 		private string RECTANGLE_TO_STRING = string.Format("left={0}, top={1}, right={2}, bottom={3}", 1, 2, 3, 4);

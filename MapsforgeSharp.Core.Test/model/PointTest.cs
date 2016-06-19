@@ -15,11 +15,11 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using NUnit.Framework;
+using System;
+
 namespace MapsforgeSharp.Core.Model
 {
-    using NUnit.Framework;
-    using System;
-
     public class PointTest
 	{
 		private string POINT_TO_STRING = string.Format("x={0}, y={1}", 1, 2);

@@ -15,10 +15,10 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using NUnit.Framework;
+
 namespace MapsforgeSharp.Core.Model
 {
-    using NUnit.Framework;
-
     public class DimensionTest
 	{
 		private const string POINT_TO_STRING = "width=1, height=2";

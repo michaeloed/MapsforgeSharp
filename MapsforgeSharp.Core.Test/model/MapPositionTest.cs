@@ -15,10 +15,10 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using NUnit.Framework;
+
 namespace MapsforgeSharp.Core.Model
 {
-    using NUnit.Framework;
-
     public class MapPositionTest
 	{
 		private string MAP_POSITION_TO_STRING = string.Format("latLong=latitude={0}, longitude={1}, zoomLevel={2}", 1, 2, 3);

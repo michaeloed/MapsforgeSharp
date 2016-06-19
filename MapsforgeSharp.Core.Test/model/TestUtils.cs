@@ -15,13 +15,13 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using NUnit.Framework;
+using PCLStorage;
+using System;
+using System.Runtime.Serialization;
+
 namespace MapsforgeSharp.Core.Model
 {
-    using NUnit.Framework;
-    using PCLStorage;
-    using System;
-    using System.Runtime.Serialization;
-
     internal sealed class TestUtils
 	{
 		internal static void EqualsTest(object object1, object object2)

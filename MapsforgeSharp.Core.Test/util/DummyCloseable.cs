@@ -15,10 +15,10 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using System;
+
 namespace MapsforgeSharp.Core.Util
 {
-    using System;
-
     internal class DummyCloseable : System.IDisposable
 	{
 		internal bool closed;

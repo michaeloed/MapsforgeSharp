@@ -15,12 +15,13 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using MapsforgeSharp.Core.Util;
+using NUnit.Framework;
+
 namespace MapsforgeSharp.Core.Model
 {
-    using NUnit.Framework;
-    using Util;
     public class TileTest
-	{
+    {
 		private const string TILE_TO_STRING = "x=1, y=2, z=3";
 		private const int TILE_SIZE = 256;
 

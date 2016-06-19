@@ -15,10 +15,10 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using NUnit.Framework;
+
 namespace MapsforgeSharp.Core.Util
 {
-    using NUnit.Framework;
-
     public class LRUCacheTest
 	{
 		private const string KEY1 = "foo1";

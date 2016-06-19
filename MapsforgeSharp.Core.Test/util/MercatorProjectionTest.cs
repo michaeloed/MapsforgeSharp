@@ -15,13 +15,12 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using NUnit.Framework;
+using System;
+using MapsforgeSharp.Core.Model;
+
 namespace MapsforgeSharp.Core.Util
 {
-    using NUnit.Framework;
-    using System;
-
-    using Tile = MapsforgeSharp.Core.Model.Tile;
-
     public class MercatorProjectionTest
 	{
 		private static readonly int[] TILE_SIZES = new int[] {256, 128, 376, 512, 100};

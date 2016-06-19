@@ -15,11 +15,11 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using NUnit.Framework;
+using System;
+
 namespace MapsforgeSharp.Core.Model
 {
-    using NUnit.Framework;
-    using System;
-
     public class LineSegmentTest
 	{
         [Test()]

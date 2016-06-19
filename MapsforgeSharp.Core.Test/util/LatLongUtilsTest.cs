@@ -16,16 +16,13 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using MapsforgeSharp.Core.Model;
+using NUnit.Framework;
+using System;
+using System.Runtime.InteropServices;
+
 namespace MapsforgeSharp.Core.Util
-{
-    using NUnit.Framework;
-    using System;
-    using System.Runtime.InteropServices;
-
-    using BoundingBox = MapsforgeSharp.Core.Model.BoundingBox;
-    using Dimension = MapsforgeSharp.Core.Model.Dimension;
-    using LatLong = MapsforgeSharp.Core.Model.LatLong;
-
+{    
     public class LatLongUtilsTest
 	{
 		private const double DEGREES = 123.456789;
